@@ -1,4 +1,4 @@
-const Mongoose = require('mongoose');
+const Mongoose = require('mongoose')
 const BCrypt = require('bcryptjs')
 const SALT_FACTOR = 10
 
@@ -51,4 +51,4 @@ UserSchema.methods.comparePasswordSync = function(attempt) {
 }
 
 // export
-module.exports = Mongoose.model('User', TaskSchema);
+module.exports = Mongoose.model('User', TaskSchema)
